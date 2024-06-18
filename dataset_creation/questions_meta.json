@@ -1,0 +1,792 @@
+[
+  {
+    "id": "001",
+    "text": [
+      "What is the <param> of this <instruction subtask task>",
+      "Show the <param> of this <instruction subtask task>",
+      "Get the <param> of this <instruction subtask task>",
+      "Display the <param> of this <instruction subtask task>"
+    ],
+    "programs": {
+      "task": [
+        "FilterType tasks root",
+        "FilterAttr task_id current_task_id prev",
+        "Unique prev",
+        "QueryAttr <param> prev",
+        "ShowInfo prev"
+      ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "Unique prev",
+        "QueryAttr <param> prev",
+        "ShowInfo prev"
+      ],
+      "instruction": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType instructions prev",
+        "FilterAttr order current_instruction_order prev",
+        "Unique prev",
+        "QueryAttr <param> prev",
+        "ShowInfo prev"
+      ]
+    }
+  },
+
+  {
+    "id": "002",
+    "text": [
+      "What is the <param> of <subtask task> <subtask_id task_id>",
+      "Show the <param> of <subtask task> <subtask_id task_id>",
+      "Get the <param> of <subtask task> <subtask_id task_id>",
+      "Display the <param> of <subtask task> <subtask_id task_id>"
+    ],
+    "programs": {
+      "task": [
+        "ExtractID task_id Query",
+        "SaveVal2Var prev var_1",
+        "FilterType tasks root",
+        "FilterAttr task_id val_1 prev",
+        "Unique prev",
+        "QueryAttr <param> prev",
+        "ShowInfo prev"
+      ],
+      "subtask": [
+        "ExtractID subtask_id Query",
+        "SaveVal2Var prev var_1",
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id val_1 prev",
+        "Unique prev",
+        "QueryAttr <param> prev",
+        "ShowInfo prev"
+      ]
+    }
+  },
+
+  {
+    "id": "003",
+    "text": [
+      "What are the <node_param> of this <instruction subtask task manual>",
+      "Show the <node_param> of this <instruction subtask task manual>",
+      "Get the <node_param> of this <instruction subtask task manual>",
+      "Tell the <node_param> of this <instruction subtask task manual>"
+    ],
+    "programs": {
+      "manual": [
+        "FilterType <node_param> root",
+        "ShowInfo prev"
+      ],
+      "task": [
+        "FilterType tasks root",
+        "FilterAttr task_id current_task_id prev",
+        "FilterType <node_param> prev",
+        "ShowInfo prev"
+      ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType <node_param> prev",
+        "ShowInfo prev"
+      ],
+      "instruction": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType instructions prev",
+        "FilterAttr order current_instruction_order prev",
+        "FilterType <node_param> prev",
+        "ShowInfo prev"
+      ]
+    },
+    "param_relational_programs": {
+      "instruction": {
+        "manual": [
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ],
+        "task": [
+          "FilterType tasks root",
+          "FilterAttr task_id current_task_id prev",
+          "FilterType subtasks prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ],
+        "subtask": [
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterAttr subtask_id current_subtask_id prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+      ]
+      },
+      "subtask": {
+        "manual": [
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ],
+        "task": [
+          "FilterType tasks root",
+          "FilterAttr task_id current_task_id prev",
+          "FilterType subtasks prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ]
+      },
+      "task": {
+        "manual": [
+          "FilterType tasks root",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ]
+      }
+    }
+  },
+
+  {
+    "id": "004",
+    "text": [
+      "What are the <node_param> of <subtask task> <subtask_id task_id>",
+      "Show the <node_param> of <subtask task> <subtask_id task_id>",
+      "Get the <node_param> of <subtask task> <subtask_id task_id>",
+      "Display the <node_param> of <subtask task> <subtask_id task_id>"
+    ],
+    "programs": {
+      "task": [
+        "ExtractID task_id Query",
+        "SaveVal2Var prev var_1",
+        "FilterType tasks root",
+        "FilterAttr task_id val_1 prev",
+        "FilterType <node_param> prev",
+        "ShowInfo prev"
+      ],
+      "subtask": [
+        "ExtractID subtask_id Query",
+        "SaveVal2Var prev var_1",
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id val_1 prev",
+        "FilterType <node_param> prev",
+        "ShowInfo prev"
+      ]
+    },
+    "param_relational_programs": {
+      "instruction": {
+        "task": [
+          "ExtractID task_id Query",
+          "SaveVal2Var prev var_1",
+          "FilterType tasks root",
+          "FilterAttr task_id val_1 prev",
+          "FilterType subtasks prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ],
+        "subtask": [
+          "ExtractID subtask_id Query",
+          "SaveVal2Var prev var_1",
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterAttr subtask_id val_1 prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+      ]
+      },
+      "subtask": {
+        "task": [
+          "ExtractID task_id Query",
+          "SaveVal2Var prev var_1",
+          "FilterType tasks root",
+          "FilterAttr task_id val_1 prev",
+          "FilterType subtasks prev",
+          "FilterType <node_param> prev",
+          "ShowInfo prev"
+        ]
+      }
+    }
+  },
+
+  {
+    "id": "005",
+    "text": [
+      "How many <node_param> in this <instruction subtask task manual>",
+      "Count <node_param> in this <instruction subtask task manual>",
+      "What is the total number of <node_param> in this <instruction subtask task manual>",
+      "Compute the number of <node_param> in this <instruction subtask task manual>"
+    ],
+    "programs": {
+      "instruction": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType instructions prev",
+        "FilterAttr order current_instruction_order prev",
+        "FilterType <node_param> prev",
+        "Count prev"
+      ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType <node_param> prev",
+        "Count prev"
+      ],
+      "task": [
+        "FilterType tasks root",
+        "FilterAttr task_id current_task_id prev",
+        "FilterType <node_param> prev",
+        "Count prev"
+      ],
+      "manual": [
+        "FilterType <node_param> root",
+        "Count prev"
+      ]
+    },
+    "param_relational_programs": {
+      "instruction": {
+        "manual": [
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ],
+        "task": [
+          "FilterType tasks root",
+          "FilterAttr task_id current_task_id prev",
+          "FilterType subtasks prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ],
+        "subtask": [
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterAttr subtask_id current_subtask_id prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ]
+      },
+      "subtask": {
+        "manual": [
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ],
+        "task": [
+          "FilterType tasks root",
+          "FilterAttr task_id current_task_id prev",
+          "FilterType subtasks prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ]
+      },
+      "task": {
+        "manual": [
+          "FilterType tasks root",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ]
+      }
+    }
+  },
+
+  {
+    "id": "006",
+    "text": [
+      "How many <node_param> in <subtask task> <subtask_id task_id>",
+      "Count <node_param> in <subtask task> <subtask_id task_id>",
+      "What is the total number of <node_param> in <subtask task> <subtask_id task_id>",
+      "Compute the number of <node_param> in <subtask task> <subtask_id task_id>"
+    ],
+    "programs": {
+      "subtask": [
+        "ExtractID subtask_id Query",
+        "SaveVal2Var prev var_1",
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id val_1 prev",
+        "FilterType <node_param> prev",
+        "Count prev"
+      ],
+      "task": [
+        "ExtractID task_id Query",
+        "SaveVal2Var prev var_1",
+        "FilterType tasks root",
+        "FilterAttr task_id val_1 prev",
+        "FilterType <node_param> prev",
+        "Count prev"
+      ]
+    },
+    "param_relational_programs": {
+      "instruction": {
+        "task": [
+          "ExtractID task_id Query",
+          "SaveVal2Var prev var_1",
+          "FilterType tasks root",
+          "FilterAttr task_id val_1 prev",
+          "FilterType subtasks prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ],
+        "subtask": [
+          "ExtractID subtask_id Query",
+          "SaveVal2Var prev var_1",
+          "FilterType tasks root",
+          "FilterType subtasks prev",
+          "FilterAttr subtask_id val_1 prev",
+          "FilterType instructions prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ]
+      },
+      "subtask": {
+        "task": [
+          "ExtractID task_id Query",
+          "SaveVal2Var prev var_1",
+          "FilterType tasks root",
+          "FilterAttr task_id val_1 prev",
+          "FilterType subtasks prev",
+          "FilterType <node_param> prev",
+          "Count prev"
+        ]
+      }
+    }
+  },
+
+  {
+    "id": "007",
+    "text": [
+      "Execute this <instruction subtask task>",
+      "Show execution of this <instruction subtask task>",
+      "Perform execution of this <instruction subtask task>",
+      "Run this <instruction subtask task>"
+    ],
+    "programs": {
+      "task": [
+        "FilterType tasks root",
+        "FilterAttr task_id current_task_id prev",
+        "FilterType subtasks prev",
+        "FilterType instructions prev",
+        "FilterType actions prev",
+        "ExecuteType tasks prev"
+      ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType instructions prev",
+        "FilterType actions prev",
+        "ExecuteType subtasks prev"
+      ],
+      "instruction": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType instructions prev",
+        "FilterAttr order current_instruction_order prev",
+        "FilterType actions prev",
+        "ExecuteType instructions prev"
+      ]
+    }
+  },
+
+  {
+    "id": "008",
+    "text": [
+      "Show summary for this <instruction subtask task>",
+      "Display summary for this <instruction subtask task>",
+      "Give summary for this <instruction subtask task>"
+    ],
+    "programs": {
+      "task": [
+        "FilterType tasks root",
+        "FilterAttr task_id current_task_id prev",
+        "ShowInfo prev"
+      ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "ShowInfo prev"
+      ],
+      "instruction": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterAttr subtask_id current_subtask_id prev",
+        "FilterType instructions prev",
+        "FilterAttr order current_instruction_order prev",
+        "ShowInfo prev"
+      ]
+    }
+  },
+
+  {
+    "id": "009",
+    "text": [
+      "Remove <number1> from <number2>",
+      "Detach <number1> from <number2>",
+      "Disconnect <number1> from <number2>",
+      "Disassemble <number1> from <number2>",
+      "Uninstall <number1> from <number2>",
+      "Isolate <number1> from <number2>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "CreateActions detach Yes prev",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "FilterType instructions prev",
+      "FilterAttr order current_instruction_order prev",
+      "FilterType actions prev",
+      "CheckActionsValidity val_1 prev",
+      "Detach prev val_1"
+    ]
+  },
+
+  {
+    "id": "010",
+    "text": [
+      "Attach <number1> to <number2>",
+      "Install <number1> to <number2>",
+      "Connect <number1> to <number2>",
+      "Put <number1> on <number2>",
+      "Locate <number1> to <number2>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "CreateActions attach Yes prev",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "FilterType instructions prev",
+      "FilterAttr order current_instruction_order prev",
+      "FilterType actions prev",
+      "CheckActionsValidity val_1 prev",
+      "Attach prev val_1"
+    ]
+  },
+
+  {
+    "id": "011",
+    "text": [
+      "Show <param> side of this figure",
+      "Display <param> view of this figure",
+      "Illustrate <param> view of figure",
+      "Show <param> view of figure"
+    ],
+    "programs": [
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "ShowSide <param> prev"
+    ]
+  },
+
+  {
+    "id": "012",
+    "text": [
+      "Show highlight of <number>",
+      "Highlight <number>",
+      "Display highlight of <number>",
+      "Turn on highlight of <number>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "Filter3DAttr items val_1 prev",
+      "Highlight on prev"
+    ]
+  },
+
+  {
+    "id": "013",
+    "text": [
+      "Hide highlight from <number>",
+      "Reset highlight <number>",
+      "Remove highlight from <number>",
+      "Turn off highlight from <number>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "Filter3DAttr items val_1 prev",
+      "Highlight off prev"
+    ]
+  },
+
+  {
+    "id": "014",
+    "text": [
+      "Show close look of <number>",
+      "Display close look of <number>",
+      "Show closer <number>",
+      "Demonstrate closer view of <number>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "Filter3DAttr items val_1 prev",
+      "CloseLook prev"
+    ]
+  },
+
+
+  {
+    "id": "015",
+    "text": [
+      "Show <number>",
+      "Make visible <number>",
+      "Turn on visibility of <number>",
+      "Turn visibility on for <number>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "Filter3DAttr items val_1 prev",
+      "Visibility on prev"
+    ]
+  },
+
+  {
+    "id": "016",
+    "text": [
+      "Hide <number>",
+      "Make invisible <number>",
+      "Turn off visibility of <number>",
+      "Turn visibility off for <number>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "Filter3DAttr items val_1 prev",
+      "Visibility off prev"
+    ]
+  },
+
+
+  {
+    "id": "017",
+    "text": [
+      "Scale up this figure by <ratio>",
+      "Show scaled view of this figure by <ratio>",
+      "Display scaled up look of the figure by <ratio>"
+    ],
+    "programs": [
+      "ExtractNumbers Query",
+      "SaveVal2Var prev var_1",
+      "FilterType tasks root",
+      "FilterType subtasks prev",
+      "FilterAttr subtask_id current_subtask_id prev",
+      "Unique prev",
+      "QueryAttr figure prev",
+      "Filter3DAttr name prev root3D",
+      "Unique prev",
+      "Scale up prev val_1"
+    ]
+  },
+
+  {
+  "id": "018",
+  "text": [
+    "Scale down this figure by <ratio>",
+    "Show downscaled view of this figure by <ratio>",
+    "Display scaled down look of the figure by <ratio>"
+  ],
+  "programs": [
+    "ExtractNumbers Query",
+    "SaveVal2Var prev var_1",
+    "FilterType tasks root",
+    "FilterType subtasks prev",
+    "FilterAttr subtask_id current_subtask_id prev",
+    "Unique prev",
+    "QueryAttr figure prev",
+    "Filter3DAttr name prev root3D",
+    "Unique prev",
+    "Scale down prev val_1"
+  ]
+},
+
+  {
+  "id": "019",
+  "text": [
+    "Show side-by-side look of this figure",
+    "Display side-by-side look of this figure",
+    "Demonstrate side-by-side view of this figure"
+  ],
+  "programs": [
+    "FilterType tasks root",
+    "FilterType subtasks prev",
+    "FilterAttr subtask_id current_subtask_id prev",
+    "Unique prev",
+    "QueryAttr figure prev",
+    "Filter3DAttr name prev root3D",
+    "Unique prev",
+    "SideBySideLook prev"
+  ]
+},
+
+  {
+  "id": "020",
+  "text": [
+    "Reset",
+    "Reset this figure",
+    "Set initial look to this figure",
+    "Set initial position for this figure",
+    "Reset view of this figure"
+  ],
+  "programs": [
+    "FilterType tasks root",
+    "FilterType subtasks prev",
+    "FilterAttr subtask_id current_subtask_id prev",
+    "Unique prev",
+    "QueryAttr figure prev",
+    "Filter3DAttr name prev root3D",
+    "Unique prev",
+    "Reset prev"
+  ]
+},
+
+
+
+
+
+
+
+
+  {
+    "id": "1111111111",
+    "type": "what is this where number is this",
+    "text": [
+      "Show <nodes> where <param> is <value>",
+      "What <nodes> have <param> <value>",
+      "Display <nodes> with <param> <value>"
+    ],
+    "programs": {
+      "manual": [
+        "FilterType <nodes> root",
+        "FilterAttr <param> <value> prev",
+        "ShowInfo prev"
+      ],
+      "task": [
+        "FilterType tasks root",
+        "FilterType <nodes> prev",
+        "FilterAttr <param> <value> prev",
+        "ShowInfo prev"
+        ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterType <nodes> prev",
+        "FilterAttr <param> <value> prev",
+        "ShowInfo prev"
+      ]
+    }
+  },
+  {
+    "id": "111",
+    "type": "",
+    "text": [
+      "Show <param_1> of <nodes> where <param_2> is <value>",
+      "What is <param_1> of <nodes> where <param_2> is <value>",
+      "Display <param_1> of <nodes> with <param_2> <value>"
+    ],
+    "programs": {
+      "manual": [
+        "FilterType <nodes> root",
+        "FilterAttr <param_2> <value> prev",
+        "Unique prev",
+        "QueryAttr <param_1> prev",
+        "ShowInfo prev"
+      ],
+      "task": [
+        "FilterType tasks root",
+        "FilterType <nodes> prev",
+        "FilterAttr <param_2> <value> prev",
+        "Unique prev",
+        "QueryAttr <param_1> prev",
+        "ShowInfo prev"
+      ],
+      "subtask": [
+        "FilterType tasks root",
+        "FilterType subtasks prev",
+        "FilterType <nodes> prev",
+        "FilterAttr <param_2> <value> prev",
+        "Unique prev",
+        "QueryAttr <param_1> prev",
+        "ShowInfo prev"
+      ]
+    }
+  },
+  {
+    "id": "11111111111111",
+    "type": "",
+    "text": [
+      "Is there any <node>"
+    ]
+  },
+  {
+    "id": "111112111",
+    "type": "",
+    "text": [
+      "Is there any <node> where <param> is <value>"
+    ]
+  }
+]

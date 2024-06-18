@@ -1,0 +1,1397 @@
+query_text,program_text
+next,show_instruction next
+next instruction,show_instruction next
+go to next instruction,show_instruction next
+go to next,show_instruction next
+show next instruction,show_instruction next
+show next,show_instruction next
+display next instruction,show_instruction next
+display next,show_instruction next
+move to next instruction,show_instruction next
+move to next,show_instruction next
+open next instruction,show_instruction next
+open next,show_instruction next
+show me next instruction,show_instruction next
+show me next,show_instruction next
+previous,show_instruction previous
+previous instruction,show_instruction previous
+go to previous instruction,show_instruction previous
+go to previous,show_instruction previous
+show previous instruction,show_instruction previous
+show previous,show_instruction previous
+display previous instruction,show_instruction previous
+display previous,show_instruction previous
+move to previous instruction,show_instruction previous
+move to previous,show_instruction previous
+open previous instruction,show_instruction previous
+open previous,show_instruction previous
+show me previous instruction,show_instruction previous
+show me previous,show_instruction previous
+current,show_instruction current
+current instruction,show_instruction current
+repeat current instruction,show_instruction current
+repeat current,show_instruction current
+rerun current instruction,show_instruction current
+rerun current,show_instruction current
+replay current instruction,show_instruction current
+replay current,show_instruction current
+number ipc,find_ar_object request_text <nxt> show_document ipc prev
+ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+number ipc manual,find_ar_object request_text <nxt> show_document ipc prev
+ipc manual of number,find_ar_object request_text <nxt> show_document ipc prev
+number ipc view,find_ar_object request_text <nxt> show_document ipc prev
+ipc view of number,find_ar_object request_text <nxt> show_document ipc prev
+number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+show number ipc,find_ar_object request_text <nxt> show_document ipc prev
+show ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+show number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+show ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+display number ipc,find_ar_object request_text <nxt> show_document ipc prev
+display ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+display number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+display ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+open number ipc,find_ar_object request_text <nxt> show_document ipc prev
+open ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+open number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+open ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+illusrate number ipc,find_ar_object request_text <nxt> show_document ipc prev
+illusrate ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+illusrate number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+illusrate ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+demonstrate number ipc,find_ar_object request_text <nxt> show_document ipc prev
+demonstrate ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+demonstrate number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+demonstrate ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+show me number ipc,find_ar_object request_text <nxt> show_document ipc prev
+show me ipc of number,find_ar_object request_text <nxt> show_document ipc prev
+show me number ipc document,find_ar_object request_text <nxt> show_document ipc prev
+show me ipc document of number,find_ar_object request_text <nxt> show_document ipc prev
+number amm,find_ar_object request_text <nxt> show_document amm prev
+amm of number,find_ar_object request_text <nxt> show_document amm prev
+number amm manual,find_ar_object request_text <nxt> show_document amm prev
+amm manual of number,find_ar_object request_text <nxt> show_document amm prev
+number amm view,find_ar_object request_text <nxt> show_document amm prev
+amm view of number,find_ar_object request_text <nxt> show_document amm prev
+number amm document,find_ar_object request_text <nxt> show_document amm prev
+amm document of number,find_ar_object request_text <nxt> show_document amm prev
+show number amm,find_ar_object request_text <nxt> show_document amm prev
+show amm of number,find_ar_object request_text <nxt> show_document amm prev
+show number amm document,find_ar_object request_text <nxt> show_document amm prev
+show amm document of number,find_ar_object request_text <nxt> show_document amm prev
+display number amm,find_ar_object request_text <nxt> show_document amm prev
+display amm of number,find_ar_object request_text <nxt> show_document amm prev
+display number amm document,find_ar_object request_text <nxt> show_document amm prev
+display amm document of number,find_ar_object request_text <nxt> show_document amm prev
+open number amm,find_ar_object request_text <nxt> show_document amm prev
+open amm of number,find_ar_object request_text <nxt> show_document amm prev
+open number amm document,find_ar_object request_text <nxt> show_document amm prev
+open amm document of number,find_ar_object request_text <nxt> show_document amm prev
+illusrate number amm,find_ar_object request_text <nxt> show_document amm prev
+illusrate amm of number,find_ar_object request_text <nxt> show_document amm prev
+illusrate number amm document,find_ar_object request_text <nxt> show_document amm prev
+illusrate amm document of number,find_ar_object request_text <nxt> show_document amm prev
+demonstrate number amm,find_ar_object request_text <nxt> show_document amm prev
+demonstrate amm of number,find_ar_object request_text <nxt> show_document amm prev
+demonstrate number amm document,find_ar_object request_text <nxt> show_document amm prev
+demonstrate amm document of number,find_ar_object request_text <nxt> show_document amm prev
+show me number amm,find_ar_object request_text <nxt> show_document amm prev
+show me amm of number,find_ar_object request_text <nxt> show_document amm prev
+show me number amm document,find_ar_object request_text <nxt> show_document amm prev
+show me amm document of number,find_ar_object request_text <nxt> show_document amm prev
+play,media_player play
+play video,media_player play
+run video,media_player play
+show video,media_player play
+play tutorial,media_player play
+run tutorial,media_player play
+show tutorial,media_player play
+play demo,media_player play
+run demo,media_player play
+show demo,media_player play
+play media,media_player play
+run media,media_player play
+show media,media_player play
+play reference video,media_player play
+run reference video,media_player play
+show reference video,media_player play
+pause,media_player pause
+pause video,media_player pause
+hold video,media_player pause
+pause tutorial,media_player pause
+hold tutorial,media_player pause
+pause demo,media_player pause
+hold demo,media_player pause
+pause media,media_player pause
+hold media,media_player pause
+pause reference video,media_player pause
+hold reference video,media_player pause
+stop,media_player stop
+stop video,media_player stop
+close video,media_player stop
+stop tutorial,media_player stop
+close tutorial,media_player stop
+stop demo,media_player stop
+close demo,media_player stop
+stop media,media_player stop
+close media,media_player stop
+stop reference video,media_player stop
+close reference video,media_player stop
+front side,object_manipulation front
+show front side,object_manipulation front
+display front side,object_manipulation front
+demonstrate front side,object_manipulation front
+illustrate front side,object_manipulation front
+show me front side,object_manipulation front
+front view,object_manipulation front
+show front view,object_manipulation front
+display front view,object_manipulation front
+demonstrate front view,object_manipulation front
+illustrate front view,object_manipulation front
+show me front view,object_manipulation front
+front look,object_manipulation front
+show front look,object_manipulation front
+display front look,object_manipulation front
+demonstrate front look,object_manipulation front
+illustrate front look,object_manipulation front
+show me front look,object_manipulation front
+back side,object_manipulation back
+show back side,object_manipulation back
+display back side,object_manipulation back
+demonstrate back side,object_manipulation back
+illustrate back side,object_manipulation back
+show me back side,object_manipulation back
+back view,object_manipulation back
+show back view,object_manipulation back
+display back view,object_manipulation back
+demonstrate back view,object_manipulation back
+illustrate back view,object_manipulation back
+show me back view,object_manipulation back
+back look,object_manipulation back
+show back look,object_manipulation back
+display back look,object_manipulation back
+demonstrate back look,object_manipulation back
+illustrate back look,object_manipulation back
+show me back look,object_manipulation back
+left side,object_manipulation left
+show left side,object_manipulation left
+display left side,object_manipulation left
+demonstrate left side,object_manipulation left
+illustrate left side,object_manipulation left
+show me left side,object_manipulation left
+left view,object_manipulation left
+show left view,object_manipulation left
+display left view,object_manipulation left
+demonstrate left view,object_manipulation left
+illustrate left view,object_manipulation left
+show me left view,object_manipulation left
+left look,object_manipulation left
+show left look,object_manipulation left
+display left look,object_manipulation left
+demonstrate left look,object_manipulation left
+illustrate left look,object_manipulation left
+show me left look,object_manipulation left
+right side,object_manipulation right
+show right side,object_manipulation right
+display right side,object_manipulation right
+demonstrate right side,object_manipulation right
+illustrate right side,object_manipulation right
+show me right side,object_manipulation right
+right view,object_manipulation right
+show right view,object_manipulation right
+display right view,object_manipulation right
+demonstrate right view,object_manipulation right
+illustrate right view,object_manipulation right
+show me right view,object_manipulation right
+right look,object_manipulation right
+show right look,object_manipulation right
+display right look,object_manipulation right
+demonstrate right look,object_manipulation right
+illustrate right look,object_manipulation right
+show me right look,object_manipulation right
+top side,object_manipulation top
+show top side,object_manipulation top
+display top side,object_manipulation top
+demonstrate top side,object_manipulation top
+illustrate top side,object_manipulation top
+show me top side,object_manipulation top
+top view,object_manipulation top
+show top view,object_manipulation top
+display top view,object_manipulation top
+demonstrate top view,object_manipulation top
+illustrate top view,object_manipulation top
+show me top view,object_manipulation top
+top look,object_manipulation top
+show top look,object_manipulation top
+display top look,object_manipulation top
+demonstrate top look,object_manipulation top
+illustrate top look,object_manipulation top
+show me top look,object_manipulation top
+bottom side,object_manipulation bottom
+show bottom side,object_manipulation bottom
+display bottom side,object_manipulation bottom
+demonstrate bottom side,object_manipulation bottom
+illustrate bottom side,object_manipulation bottom
+show me bottom side,object_manipulation bottom
+bottom view,object_manipulation bottom
+show bottom view,object_manipulation bottom
+display bottom view,object_manipulation bottom
+demonstrate bottom view,object_manipulation bottom
+illustrate bottom view,object_manipulation bottom
+show me bottom view,object_manipulation bottom
+bottom look,object_manipulation bottom
+show bottom look,object_manipulation bottom
+display bottom look,object_manipulation bottom
+demonstrate bottom look,object_manipulation bottom
+illustrate bottom look,object_manipulation bottom
+show me bottom look,object_manipulation bottom
+reset side,object_manipulation reset
+reset view,object_manipulation reset
+reset look,object_manipulation reset
+show close look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+show closer look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+show close look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+show closer look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+show close look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+show closer look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+show me close look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+show me closer look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+show me close look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+show me closer look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+show me close look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+show me closer look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+display close look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+display closer look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+display close look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+display closer look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+display close look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+display closer look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate close look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate closer look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate close look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate closer look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate close look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate closer look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate close look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate closer look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate close look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate closer look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate close look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate closer look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+close look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+closer look of object number,find_ar_object request_text <nxt> close_look_at_object prev
+close look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+closer look of component number,find_ar_object request_text <nxt> close_look_at_object prev
+close look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+closer look of item number,find_ar_object request_text <nxt> close_look_at_object prev
+show closer object number,find_ar_object request_text <nxt> close_look_at_object prev
+show closer component number,find_ar_object request_text <nxt> close_look_at_object prev
+show closer item number,find_ar_object request_text <nxt> close_look_at_object prev
+show me closer object number,find_ar_object request_text <nxt> close_look_at_object prev
+show me closer component number,find_ar_object request_text <nxt> close_look_at_object prev
+show me closer item number,find_ar_object request_text <nxt> close_look_at_object prev
+display closer object number,find_ar_object request_text <nxt> close_look_at_object prev
+display closer component number,find_ar_object request_text <nxt> close_look_at_object prev
+display closer item number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate closer object number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate closer component number,find_ar_object request_text <nxt> close_look_at_object prev
+demonstrate closer item number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate closer object number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate closer component number,find_ar_object request_text <nxt> close_look_at_object prev
+illustrate closer item number,find_ar_object request_text <nxt> close_look_at_object prev
+remove number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove object number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove object number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove component number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove component number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove item number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove item number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect object number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect object number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect component number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect component number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect item number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect item number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate object number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate object number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate component number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate component number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate item number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate item number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach object number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach object number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach component number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach component number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach item number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach item number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove objects number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove objects number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove components number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove components number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove items number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove items number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove objects number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove objects number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove components number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove components number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove items number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove items number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove objects number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove objects number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove items number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove items number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+remove components number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+remove components number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect objects number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect objects number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect components number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect components number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect items number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect items number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect objects number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect objects number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect items number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect items number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect items number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect items number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+disconnect number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+disconnect number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate objects number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate objects number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate components number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate components number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate items number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate items number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate objects number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate objects number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate items number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate items number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate components number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate components number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate items number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate items number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+isolate components number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+isolate components number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach objects number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach objects number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach components number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach components number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach items number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach items number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach objects number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach objects number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach components number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach components number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach components number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach components number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach items number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach items number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach number number number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach number number number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+detach objects number number from number,find_remove_objects request_text true <nxt> disconnect_objects prev
+detach objects number number,find_remove_objects request_text false <nxt> disconnect_objects prev
+show warning,show_warning_and_caution task
+show warning list,show_warning_and_caution task
+show warning for this task,show_warning_and_caution task
+show warning list for this task,show_warning_and_caution task
+show warning for this subtask,show_warning_and_caution subtask
+show warning list for this subtask,show_warning_and_caution subtask
+show warning for this instruction,show_warning_and_caution instruction
+show warning list for this instruction,show_warning_and_caution instruction
+show caution,show_warning_and_caution task
+show caution list,show_warning_and_caution task
+show caution for this task,show_warning_and_caution task
+show caution list for this task,show_warning_and_caution task
+show caution for this subtask,show_warning_and_caution subtask
+show caution list for this subtask,show_warning_and_caution subtask
+show caution for this instruction,show_warning_and_caution instruction
+show caution list for this instruction,show_warning_and_caution instruction
+show warnings,show_warning_and_caution task
+show warnings list,show_warning_and_caution task
+show warnings for this task,show_warning_and_caution task
+show warnings list for this task,show_warning_and_caution task
+show warnings for this subtask,show_warning_and_caution subtask
+show warnings list for this subtask,show_warning_and_caution subtask
+show warnings for this instruction,show_warning_and_caution instruction
+show warnings list for this instruction,show_warning_and_caution instruction
+show cautions,show_warning_and_caution task
+show cautions list,show_warning_and_caution task
+show cautions for this task,show_warning_and_caution task
+show cautions list for this task,show_warning_and_caution task
+show cautions for this subtask,show_warning_and_caution subtask
+show cautions list for this subtask,show_warning_and_caution subtask
+show cautions for this instruction,show_warning_and_caution instruction
+show cautions list for this instruction,show_warning_and_caution instruction
+show warnings and cautions,show_warning_and_caution task
+show warnings and cautions list,show_warning_and_caution task
+show warnings and cautions for this task,show_warning_and_caution task
+show warnings and cautions list for this task,show_warning_and_caution task
+show warnings and cautions for this subtask,show_warning_and_caution subtask
+show warnings and cautions list for this subtask,show_warning_and_caution subtask
+show warnings and cautions for this instruction,show_warning_and_caution instruction
+show warnings and cautions list for this instruction,show_warning_and_caution instruction
+show warning and caution,show_warning_and_caution task
+show warning and caution list,show_warning_and_caution task
+show warning and caution for this task,show_warning_and_caution task
+show warning and caution list for this task,show_warning_and_caution task
+show warning and caution for this subtask,show_warning_and_caution subtask
+show warning and caution list for this subtask,show_warning_and_caution subtask
+show warning and caution for this instruction,show_warning_and_caution instruction
+show warning and caution list for this instruction,show_warning_and_caution instruction
+show me warning,show_warning_and_caution task
+show me warning list,show_warning_and_caution task
+show me warning for this task,show_warning_and_caution task
+show me warning list for this task,show_warning_and_caution task
+show me warning for this subtask,show_warning_and_caution subtask
+show me warning list for this subtask,show_warning_and_caution subtask
+show me warning for this instruction,show_warning_and_caution instruction
+show me warning list for this instruction,show_warning_and_caution instruction
+show me caution,show_warning_and_caution task
+show me caution list,show_warning_and_caution task
+show me caution for this task,show_warning_and_caution task
+show me caution list for this task,show_warning_and_caution task
+show me caution for this subtask,show_warning_and_caution subtask
+show me caution list for this subtask,show_warning_and_caution subtask
+show me caution for this instruction,show_warning_and_caution instruction
+show me caution list for this instruction,show_warning_and_caution instruction
+show me warnings,show_warning_and_caution task
+show me warnings list,show_warning_and_caution task
+show me warnings for this task,show_warning_and_caution task
+show me warnings list for this task,show_warning_and_caution task
+show me warnings for this subtask,show_warning_and_caution subtask
+show me warnings list for this subtask,show_warning_and_caution subtask
+show me warnings for this instruction,show_warning_and_caution instruction
+show me warnings list for this instruction,show_warning_and_caution instruction
+show me cautions,show_warning_and_caution task
+show me cautions list,show_warning_and_caution task
+show me cautions for this task,show_warning_and_caution task
+show me cautions list for this task,show_warning_and_caution task
+show me cautions for this subtask,show_warning_and_caution subtask
+show me cautions list for this subtask,show_warning_and_caution subtask
+show me cautions for this instruction,show_warning_and_caution instruction
+show me cautions list for this instruction,show_warning_and_caution instruction
+show me warnings and cautions,show_warning_and_caution task
+show me warnings and cautions list,show_warning_and_caution task
+show me warnings and cautions for this task,show_warning_and_caution task
+show me warnings and cautions list for this task,show_warning_and_caution task
+show me warnings and cautions for this subtask,show_warning_and_caution subtask
+show me warnings and cautions list for this subtask,show_warning_and_caution subtask
+show me warnings and cautions for this instruction,show_warning_and_caution instruction
+show me warnings and cautions list for this instruction,show_warning_and_caution instruction
+show me warning and caution,show_warning_and_caution task
+show me warning and caution list,show_warning_and_caution task
+show me warning and caution for this task,show_warning_and_caution task
+show me warning and caution list for this task,show_warning_and_caution task
+show me warning and caution for this subtask,show_warning_and_caution subtask
+show me warning and caution list for this subtask,show_warning_and_caution subtask
+show me warning and caution for this instruction,show_warning_and_caution instruction
+show me warning and caution list for this instruction,show_warning_and_caution instruction
+illustrate warning,show_warning_and_caution task
+illustrate warning list,show_warning_and_caution task
+illustrate warning for this task,show_warning_and_caution task
+illustrate warning list for this task,show_warning_and_caution task
+illustrate warning for this subtask,show_warning_and_caution subtask
+illustrate warning list for this subtask,show_warning_and_caution subtask
+illustrate warning for this instruction,show_warning_and_caution instruction
+illustrate warning list for this instruction,show_warning_and_caution instruction
+illustrate caution,show_warning_and_caution task
+illustrate caution list,show_warning_and_caution task
+illustrate caution for this task,show_warning_and_caution task
+illustrate caution list for this task,show_warning_and_caution task
+illustrate caution for this subtask,show_warning_and_caution subtask
+illustrate caution list for this subtask,show_warning_and_caution subtask
+illustrate caution for this instruction,show_warning_and_caution instruction
+illustrate caution list for this instruction,show_warning_and_caution instruction
+illustrate warnings,show_warning_and_caution task
+illustrate warnings list,show_warning_and_caution task
+illustrate warnings for this task,show_warning_and_caution task
+illustrate warnings list for this task,show_warning_and_caution task
+illustrate warnings for this subtask,show_warning_and_caution subtask
+illustrate warnings list for this subtask,show_warning_and_caution subtask
+illustrate warnings for this instruction,show_warning_and_caution instruction
+illustrate warnings list for this instruction,show_warning_and_caution instruction
+illustrate cautions,show_warning_and_caution task
+illustrate cautions list,show_warning_and_caution task
+illustrate cautions for this task,show_warning_and_caution task
+illustrate cautions list for this task,show_warning_and_caution task
+illustrate cautions for this subtask,show_warning_and_caution subtask
+illustrate cautions list for this subtask,show_warning_and_caution subtask
+illustrate cautions for this instruction,show_warning_and_caution instruction
+illustrate cautions list for this instruction,show_warning_and_caution instruction
+illustrate warnings and cautions,show_warning_and_caution task
+illustrate warnings and cautions list,show_warning_and_caution task
+illustrate warnings and cautions for this task,show_warning_and_caution task
+illustrate warnings and cautions list for this task,show_warning_and_caution task
+illustrate warnings and cautions for this subtask,show_warning_and_caution subtask
+illustrate warnings and cautions list for this subtask,show_warning_and_caution subtask
+illustrate warnings and cautions for this instruction,show_warning_and_caution instruction
+illustrate warnings and cautions list for this instruction,show_warning_and_caution instruction
+illustrate warning and caution,show_warning_and_caution task
+illustrate warning and caution list,show_warning_and_caution task
+illustrate warning and caution for this task,show_warning_and_caution task
+illustrate warning and caution list for this task,show_warning_and_caution task
+illustrate warning and caution for this subtask,show_warning_and_caution subtask
+illustrate warning and caution list for this subtask,show_warning_and_caution subtask
+illustrate warning and caution for this instruction,show_warning_and_caution instruction
+illustrate warning and caution list for this instruction,show_warning_and_caution instruction
+display warning,show_warning_and_caution task
+display warning list,show_warning_and_caution task
+display warning for this task,show_warning_and_caution task
+display warning list for this task,show_warning_and_caution task
+display warning for this subtask,show_warning_and_caution subtask
+display warning list for this subtask,show_warning_and_caution subtask
+display warning for this instruction,show_warning_and_caution instruction
+display warning list for this instruction,show_warning_and_caution instruction
+display caution,show_warning_and_caution task
+display caution list,show_warning_and_caution task
+display caution for this task,show_warning_and_caution task
+display caution list for this task,show_warning_and_caution task
+display caution for this subtask,show_warning_and_caution subtask
+display caution list for this subtask,show_warning_and_caution subtask
+display caution for this instruction,show_warning_and_caution instruction
+display caution list for this instruction,show_warning_and_caution instruction
+display warnings,show_warning_and_caution task
+display warnings list,show_warning_and_caution task
+display warnings for this task,show_warning_and_caution task
+display warnings list for this task,show_warning_and_caution task
+display warnings for this subtask,show_warning_and_caution subtask
+display warnings list for this subtask,show_warning_and_caution subtask
+display warnings for this instruction,show_warning_and_caution instruction
+display warnings list for this instruction,show_warning_and_caution instruction
+display cautions,show_warning_and_caution task
+display cautions list,show_warning_and_caution task
+display cautions for this task,show_warning_and_caution task
+display cautions list for this task,show_warning_and_caution task
+display cautions for this subtask,show_warning_and_caution subtask
+display cautions list for this subtask,show_warning_and_caution subtask
+display cautions for this instruction,show_warning_and_caution instruction
+display cautions list for this instruction,show_warning_and_caution instruction
+display warnings and cautions,show_warning_and_caution task
+display warnings and cautions list,show_warning_and_caution task
+display warnings and cautions for this task,show_warning_and_caution task
+display warnings and cautions list for this task,show_warning_and_caution task
+display warnings and cautions for this subtask,show_warning_and_caution subtask
+display warnings and cautions list for this subtask,show_warning_and_caution subtask
+display warnings and cautions for this instruction,show_warning_and_caution instruction
+display warnings and cautions list for this instruction,show_warning_and_caution instruction
+display warning and caution,show_warning_and_caution task
+display warning and caution list,show_warning_and_caution task
+display warning and caution for this task,show_warning_and_caution task
+display warning and caution list for this task,show_warning_and_caution task
+display warning and caution for this subtask,show_warning_and_caution subtask
+display warning and caution list for this subtask,show_warning_and_caution subtask
+display warning and caution for this instruction,show_warning_and_caution instruction
+display warning and caution list for this instruction,show_warning_and_caution instruction
+demonstrate warning,show_warning_and_caution task
+demonstrate warning list,show_warning_and_caution task
+demonstrate warning for this task,show_warning_and_caution task
+demonstrate warning list for this task,show_warning_and_caution task
+demonstrate warning for this subtask,show_warning_and_caution subtask
+demonstrate warning list for this subtask,show_warning_and_caution subtask
+demonstrate warning for this instruction,show_warning_and_caution instruction
+demonstrate warning list for this instruction,show_warning_and_caution instruction
+demonstrate caution,show_warning_and_caution task
+demonstrate caution list,show_warning_and_caution task
+demonstrate caution for this task,show_warning_and_caution task
+demonstrate caution list for this task,show_warning_and_caution task
+demonstrate caution for this subtask,show_warning_and_caution subtask
+demonstrate caution list for this subtask,show_warning_and_caution subtask
+demonstrate caution for this instruction,show_warning_and_caution instruction
+demonstrate caution list for this instruction,show_warning_and_caution instruction
+demonstrate warnings,show_warning_and_caution task
+demonstrate warnings list,show_warning_and_caution task
+demonstrate warnings for this task,show_warning_and_caution task
+demonstrate warnings list for this task,show_warning_and_caution task
+demonstrate warnings for this subtask,show_warning_and_caution subtask
+demonstrate warnings list for this subtask,show_warning_and_caution subtask
+demonstrate warnings for this instruction,show_warning_and_caution instruction
+demonstrate warnings list for this instruction,show_warning_and_caution instruction
+demonstrate cautions,show_warning_and_caution task
+demonstrate cautions list,show_warning_and_caution task
+demonstrate cautions for this task,show_warning_and_caution task
+demonstrate cautions list for this task,show_warning_and_caution task
+demonstrate cautions for this subtask,show_warning_and_caution subtask
+demonstrate cautions list for this subtask,show_warning_and_caution subtask
+demonstrate cautions for this instruction,show_warning_and_caution instruction
+demonstrate cautions list for this instruction,show_warning_and_caution instruction
+demonstrate warnings and cautions,show_warning_and_caution task
+demonstrate warnings and cautions list,show_warning_and_caution task
+demonstrate warnings and cautions for this task,show_warning_and_caution task
+demonstrate warnings and cautions list for this task,show_warning_and_caution task
+demonstrate warnings and cautions for this subtask,show_warning_and_caution subtask
+demonstrate warnings and cautions list for this subtask,show_warning_and_caution subtask
+demonstrate warnings and cautions for this instruction,show_warning_and_caution instruction
+demonstrate warnings and cautions list for this instruction,show_warning_and_caution instruction
+demonstrate warning and caution,show_warning_and_caution task
+demonstrate warning and caution list,show_warning_and_caution task
+demonstrate warning and caution for this task,show_warning_and_caution task
+demonstrate warning and caution list for this task,show_warning_and_caution task
+demonstrate warning and caution for this subtask,show_warning_and_caution subtask
+demonstrate warning and caution list for this subtask,show_warning_and_caution subtask
+demonstrate warning and caution for this instruction,show_warning_and_caution instruction
+demonstrate warning and caution list for this instruction,show_warning_and_caution instruction
+warning for this task,show_warning_and_caution task
+warning list for this task,show_warning_and_caution task
+warning for this subtask,show_warning_and_caution subtask
+warning list for this subtask,show_warning_and_caution subtask
+warning for this instruction,show_warning_and_caution instruction
+warning list for this instruction,show_warning_and_caution instruction
+caution for this task,show_warning_and_caution task
+caution list for this task,show_warning_and_caution task
+caution for this subtask,show_warning_and_caution subtask
+caution list for this subtask,show_warning_and_caution subtask
+caution for this instruction,show_warning_and_caution instruction
+caution list for this instruction,show_warning_and_caution instruction
+warnings for this task,show_warning_and_caution task
+warnings list for this task,show_warning_and_caution task
+warnings for this subtask,show_warning_and_caution subtask
+warnings list for this subtask,show_warning_and_caution subtask
+warnings for this instruction,show_warning_and_caution instruction
+warnings list for this instruction,show_warning_and_caution instruction
+cautions for this task,show_warning_and_caution task
+cautions list for this task,show_warning_and_caution task
+cautions for this subtask,show_warning_and_caution subtask
+cautions list for this subtask,show_warning_and_caution subtask
+cautions for this instruction,show_warning_and_caution instruction
+cautions list for this instruction,show_warning_and_caution instruction
+warnings and cautions for this task,show_warning_and_caution task
+warnings and cautions list for this task,show_warning_and_caution task
+warnings and cautions for this subtask,show_warning_and_caution subtask
+warnings and cautions list for this subtask,show_warning_and_caution subtask
+warnings and cautions for this instruction,show_warning_and_caution instruction
+warnings and cautions list for this instruction,show_warning_and_caution instruction
+warning and caution for this task,show_warning_and_caution task
+warning and caution list for this task,show_warning_and_caution task
+warning and caution for this subtask,show_warning_and_caution subtask
+warning and caution list for this subtask,show_warning_and_caution subtask
+warning and caution for this instruction,show_warning_and_caution instruction
+warning and caution list for this instruction,show_warning_and_caution instruction
+show tool,show_tool_and_equipment task
+show tool for this task,show_tool_and_equipment task
+show equipment,show_tool_and_equipment task
+show equipment for this task,show_tool_and_equipment task
+show tool and equipment,show_tool_and_equipment task
+show tool and equipment for this task,show_tool_and_equipment task
+show tools and equipments,show_tool_and_equipment task
+show tools and equipments for this task,show_tool_and_equipment task
+show tools,show_tool_and_equipment task
+show tools for this task,show_tool_and_equipment task
+show equipments,show_tool_and_equipment task
+show equipments for this task,show_tool_and_equipment task
+show tools and equipment,show_tool_and_equipment task
+show tools and equipment for this task,show_tool_and_equipment task
+show me tool,show_tool_and_equipment task
+show me tool for this task,show_tool_and_equipment task
+show me equipment,show_tool_and_equipment task
+show me equipment for this task,show_tool_and_equipment task
+show me tool and equipment,show_tool_and_equipment task
+show me tool and equipment for this task,show_tool_and_equipment task
+show me tools and equipments,show_tool_and_equipment task
+show me tools and equipments for this task,show_tool_and_equipment task
+show me tools,show_tool_and_equipment task
+show me tools for this task,show_tool_and_equipment task
+show me equipments,show_tool_and_equipment task
+show me equipments for this task,show_tool_and_equipment task
+show me tools and equipment,show_tool_and_equipment task
+show me tools and equipment for this task,show_tool_and_equipment task
+illustrate tool,show_tool_and_equipment task
+illustrate tool for this task,show_tool_and_equipment task
+illustrate equipment,show_tool_and_equipment task
+illustrate equipment for this task,show_tool_and_equipment task
+illustrate tool and equipment,show_tool_and_equipment task
+illustrate tool and equipment for this task,show_tool_and_equipment task
+illustrate tools and equipments,show_tool_and_equipment task
+illustrate tools and equipments for this task,show_tool_and_equipment task
+illustrate tools,show_tool_and_equipment task
+illustrate tools for this task,show_tool_and_equipment task
+illustrate equipments,show_tool_and_equipment task
+illustrate equipments for this task,show_tool_and_equipment task
+illustrate tools and equipment,show_tool_and_equipment task
+illustrate tools and equipment for this task,show_tool_and_equipment task
+display tool,show_tool_and_equipment task
+display tool for this task,show_tool_and_equipment task
+display equipment,show_tool_and_equipment task
+display equipment for this task,show_tool_and_equipment task
+display tool and equipment,show_tool_and_equipment task
+display tool and equipment for this task,show_tool_and_equipment task
+display tools and equipments,show_tool_and_equipment task
+display tools and equipments for this task,show_tool_and_equipment task
+display tools,show_tool_and_equipment task
+display tools for this task,show_tool_and_equipment task
+display equipments,show_tool_and_equipment task
+display equipments for this task,show_tool_and_equipment task
+display tools and equipment,show_tool_and_equipment task
+display tools and equipment for this task,show_tool_and_equipment task
+demonstrate tool,show_tool_and_equipment task
+demonstrate tool for this task,show_tool_and_equipment task
+demonstrate equipment,show_tool_and_equipment task
+demonstrate equipment for this task,show_tool_and_equipment task
+demonstrate tool and equipment,show_tool_and_equipment task
+demonstrate tool and equipment for this task,show_tool_and_equipment task
+demonstrate tools and equipments,show_tool_and_equipment task
+demonstrate tools and equipments for this task,show_tool_and_equipment task
+demonstrate tools,show_tool_and_equipment task
+demonstrate tools for this task,show_tool_and_equipment task
+demonstrate equipments,show_tool_and_equipment task
+demonstrate equipments for this task,show_tool_and_equipment task
+demonstrate tools and equipment,show_tool_and_equipment task
+demonstrate tools and equipment for this task,show_tool_and_equipment task
+open tool,show_tool_and_equipment task
+open tool for this task,show_tool_and_equipment task
+open equipment,show_tool_and_equipment task
+open equipment for this task,show_tool_and_equipment task
+open tool and equipment,show_tool_and_equipment task
+open tool and equipment for this task,show_tool_and_equipment task
+open tools and equipments,show_tool_and_equipment task
+open tools and equipments for this task,show_tool_and_equipment task
+open tools,show_tool_and_equipment task
+open tools for this task,show_tool_and_equipment task
+open equipments,show_tool_and_equipment task
+open equipments for this task,show_tool_and_equipment task
+open tools and equipment,show_tool_and_equipment task
+open tools and equipment for this task,show_tool_and_equipment task
+tool for this task,show_tool_and_equipment task
+tool list for this task,show_tool_and_equipment task
+equipment for this task,show_tool_and_equipment task
+equipment list for this task,show_tool_and_equipment task
+tool and equipment for this task,show_tool_and_equipment task
+tool and equipment list for this task,show_tool_and_equipment task
+tools and equipments for this task,show_tool_and_equipment task
+tools and equipments list for this task,show_tool_and_equipment task
+tools for this task,show_tool_and_equipment task
+tools list for this task,show_tool_and_equipment task
+equipments for this task,show_tool_and_equipment task
+equipments list for this task,show_tool_and_equipment task
+tools and equipment for this task,show_tool_and_equipment task
+tools and equipment list for this task,show_tool_and_equipment task
+execute this task,find_current_info task <nxt> show_execution task none none prev
+execute this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+execute this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+show execution of this task,find_current_info task <nxt> show_execution task none none prev
+show execution of this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+show execution of this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+show me execution of this task,find_current_info task <nxt> show_execution task none none prev
+show me execution of this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+show me execution of this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+demonstrate execution of this task,find_current_info task <nxt> show_execution task none none prev
+demonstrate execution of this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+demonstrate execution of this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+perform execution of this task,find_current_info task <nxt> show_execution task none none prev
+perform execution of this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+perform execution of this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+run execution of this task,find_current_info task <nxt> show_execution task none none prev
+run execution of this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+run execution of this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+run this task,find_current_info task <nxt> show_execution task none none prev
+run this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+run this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+start execution of this task,find_current_info task <nxt> show_execution task none none prev
+start execution of this subtask,find_current_info subtask <nxt> show_execution none subtask none prev
+start execution of this instruction,find_current_info instruction <nxt> show_execution none none instruction prev
+execute task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+execute subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+execute instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+execute task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+execute subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+execute task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+show execution of task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+show execution of subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+show execution of instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+show execution of task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+show execution of subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+show execution of task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+show me execution of task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+show me execution of subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+show me execution of instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+show me execution of task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+show me execution of subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+show me execution of task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+demonstrate execution of task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+demonstrate execution of subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+demonstrate execution of instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+demonstrate execution of task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+demonstrate execution of subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+demonstrate execution of task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+perform execution of task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+perform execution of subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+perform execution of instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+perform execution of task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+perform execution of subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+perform execution of task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+run execution of task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+run execution of subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+run execution of instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+run execution of task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+run execution of subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+run execution of task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+run task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+run subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+run instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+run task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+run subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+run task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+start execution of task number,find_reference_numbers request_text asce <nxt> show_execution task none none prev
+start execution of subtask number,find_reference_numbers request_text asce <nxt> show_execution none subtask none prev
+start execution of instruction number,find_reference_numbers request_text asce <nxt> show_execution none none instruction prev
+start execution of task number subtask number,find_reference_numbers request_text asce <nxt> show_execution task subtask none prev
+start execution of subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution none subtask instruction prev
+start execution of task number subtask number instruction number,find_reference_numbers request_text asce <nxt> show_execution task subtask instruction prev
+execute subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+execute instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+show execution of subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+show execution of instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+show me execution of subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+show me execution of instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+demonstrate execution of subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+demonstrate execution of instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+perform execution of subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+perform execution of instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+run execution of subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+run execution of instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+run subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+run instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+start execution of subtask number in task number,find_reference_numbers request_text desc <nxt> show_execution task subtask none prev
+start execution of instruction number in subtask number,find_reference_numbers request_text desc <nxt> show_execution none subtask instruction prev
+execute task number instruction number,wrong_request_structure
+execute subtask number task number,wrong_request_structure
+execute instruction number task number,wrong_request_structure
+execute instruction number subtask number,wrong_request_structure
+execute task number instruction number subtask number,wrong_request_structure
+execute subtask number task number instruction number,wrong_request_structure
+execute subtask number instruction number task number,wrong_request_structure
+execute instruction number task number subtask number,wrong_request_structure
+execute instruction number subtask number task number,wrong_request_structure
+show execution of task number instruction number,wrong_request_structure
+show execution of subtask number task number,wrong_request_structure
+show execution of instruction number task number,wrong_request_structure
+show execution of instruction number subtask number,wrong_request_structure
+show execution of task number instruction number subtask number,wrong_request_structure
+show execution of subtask number task number instruction number,wrong_request_structure
+show execution of subtask number instruction number task number,wrong_request_structure
+show execution of instruction number task number subtask number,wrong_request_structure
+show execution of instruction number subtask number task number,wrong_request_structure
+show me execution of task number instruction number,wrong_request_structure
+show me execution of subtask number task number,wrong_request_structure
+show me execution of instruction number task number,wrong_request_structure
+show me execution of instruction number subtask number,wrong_request_structure
+show me execution of task number instruction number subtask number,wrong_request_structure
+show me execution of subtask number task number instruction number,wrong_request_structure
+show me execution of subtask number instruction number task number,wrong_request_structure
+show me execution of instruction number task number subtask number,wrong_request_structure
+show me execution of instruction number subtask number task number,wrong_request_structure
+demonstrate execution of task number instruction number,wrong_request_structure
+demonstrate execution of subtask number task number,wrong_request_structure
+demonstrate execution of instruction number task number,wrong_request_structure
+demonstrate execution of instruction number subtask number,wrong_request_structure
+demonstrate execution of task number instruction number subtask number,wrong_request_structure
+demonstrate execution of subtask number task number instruction number,wrong_request_structure
+demonstrate execution of subtask number instruction number task number,wrong_request_structure
+demonstrate execution of instruction number task number subtask number,wrong_request_structure
+demonstrate execution of instruction number subtask number task number,wrong_request_structure
+perform execution of task number instruction number,wrong_request_structure
+perform execution of subtask number task number,wrong_request_structure
+perform execution of instruction number task number,wrong_request_structure
+perform execution of instruction number subtask number,wrong_request_structure
+perform execution of task number instruction number subtask number,wrong_request_structure
+perform execution of subtask number task number instruction number,wrong_request_structure
+perform execution of subtask number instruction number task number,wrong_request_structure
+perform execution of instruction number task number subtask number,wrong_request_structure
+perform execution of instruction number subtask number task number,wrong_request_structure
+run execution of task number instruction number,wrong_request_structure
+run execution of subtask number task number,wrong_request_structure
+run execution of instruction number task number,wrong_request_structure
+run execution of instruction number subtask number,wrong_request_structure
+run execution of task number instruction number subtask number,wrong_request_structure
+run execution of subtask number task number instruction number,wrong_request_structure
+run execution of subtask number instruction number task number,wrong_request_structure
+run execution of instruction number task number subtask number,wrong_request_structure
+run execution of instruction number subtask number task number,wrong_request_structure
+run task number instruction number,wrong_request_structure
+run subtask number task number,wrong_request_structure
+run instruction number task number,wrong_request_structure
+run instruction number subtask number,wrong_request_structure
+run task number instruction number subtask number,wrong_request_structure
+run subtask number task number instruction number,wrong_request_structure
+run subtask number instruction number task number,wrong_request_structure
+run instruction number task number subtask number,wrong_request_structure
+run instruction number subtask number task number,wrong_request_structure
+start execution of task number instruction number,wrong_request_structure
+start execution of subtask number task number,wrong_request_structure
+start execution of instruction number task number,wrong_request_structure
+start execution of instruction number subtask number,wrong_request_structure
+start execution of task number instruction number subtask number,wrong_request_structure
+start execution of subtask number task number instruction number,wrong_request_structure
+start execution of subtask number instruction number task number,wrong_request_structure
+start execution of instruction number task number subtask number,wrong_request_structure
+start execution of instruction number subtask number task number,wrong_request_structure
+execute instruction number in task number,wrong_request_structure
+execute task number in subtask number,wrong_request_structure
+execute task number in instruction number,wrong_request_structure
+execute subtask number in instruction number,wrong_request_structure
+show execution of instruction number in task number,wrong_request_structure
+show execution of task number in subtask number,wrong_request_structure
+show execution of task number in instruction number,wrong_request_structure
+show execution of subtask number in instruction number,wrong_request_structure
+show me execution of instruction number in task number,wrong_request_structure
+show me execution of task number in subtask number,wrong_request_structure
+show me execution of task number in instruction number,wrong_request_structure
+show me execution of subtask number in instruction number,wrong_request_structure
+demonstrate execution of instruction number in task number,wrong_request_structure
+demonstrate execution of task number in subtask number,wrong_request_structure
+demonstrate execution of task number in instruction number,wrong_request_structure
+demonstrate execution of subtask number in instruction number,wrong_request_structure
+perform execution of instruction number in task number,wrong_request_structure
+perform execution of task number in subtask number,wrong_request_structure
+perform execution of task number in instruction number,wrong_request_structure
+perform execution of subtask number in instruction number,wrong_request_structure
+run execution of instruction number in task number,wrong_request_structure
+run execution of task number in subtask number,wrong_request_structure
+run execution of task number in instruction number,wrong_request_structure
+run execution of subtask number in instruction number,wrong_request_structure
+run instruction number in task number,wrong_request_structure
+run task number in subtask number,wrong_request_structure
+run task number in instruction number,wrong_request_structure
+run subtask number in instruction number,wrong_request_structure
+start execution of instruction number in task number,wrong_request_structure
+start execution of task number in subtask number,wrong_request_structure
+start execution of task number in instruction number,wrong_request_structure
+start execution of subtask number in instruction number,wrong_request_structure
+task number,find_reference_numbers request_text asce <nxt> go_to task none none prev
+subtask number,find_reference_numbers request_text asce <nxt> go_to none subtask none prev
+instruction number,find_reference_numbers request_text asce <nxt> go_to none none instruction prev
+go to task number,find_reference_numbers request_text asce <nxt> go_to task none none prev
+go to subtask number,find_reference_numbers request_text asce <nxt> go_to none subtask none prev
+go to instruction number,find_reference_numbers request_text asce <nxt> go_to none none instruction prev
+go to task number subtask number,find_reference_numbers request_text asce <nxt> go_to task subtask none prev
+go to subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to none subtask instruction prev
+go to task number subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to task subtask instruction prev
+move to task number,find_reference_numbers request_text asce <nxt> go_to task none none prev
+move to subtask number,find_reference_numbers request_text asce <nxt> go_to none subtask none prev
+move to instruction number,find_reference_numbers request_text asce <nxt> go_to none none instruction prev
+move to task number subtask number,find_reference_numbers request_text asce <nxt> go_to task subtask none prev
+move to subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to none subtask instruction prev
+move to task number subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to task subtask instruction prev
+open task number,find_reference_numbers request_text asce <nxt> go_to task none none prev
+open subtask number,find_reference_numbers request_text asce <nxt> go_to none subtask none prev
+open instruction number,find_reference_numbers request_text asce <nxt> go_to none none instruction prev
+open task number subtask number,find_reference_numbers request_text asce <nxt> go_to task subtask none prev
+open subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to none subtask instruction prev
+open task number subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to task subtask instruction prev
+jump to task number,find_reference_numbers request_text asce <nxt> go_to task none none prev
+jump to subtask number,find_reference_numbers request_text asce <nxt> go_to none subtask none prev
+jump to instruction number,find_reference_numbers request_text asce <nxt> go_to none none instruction prev
+jump to task number subtask number,find_reference_numbers request_text asce <nxt> go_to task subtask none prev
+jump to subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to none subtask instruction prev
+jump to task number subtask number instruction number,find_reference_numbers request_text asce <nxt> go_to task subtask instruction prev
+go to subtask number in task number,find_reference_numbers request_text desc <nxt> go_to task subtask none prev
+go to instruction number in subtask number,find_reference_numbers request_text desc <nxt> go_to none subtask instruction prev
+move to subtask number in task number,find_reference_numbers request_text desc <nxt> go_to task subtask none prev
+move to instruction number in subtask number,find_reference_numbers request_text desc <nxt> go_to none subtask instruction prev
+open subtask number in task number,find_reference_numbers request_text desc <nxt> go_to task subtask none prev
+open instruction number in subtask number,find_reference_numbers request_text desc <nxt> go_to none subtask instruction prev
+jump to subtask number in task number,find_reference_numbers request_text desc <nxt> go_to task subtask none prev
+jump to instruction number in subtask number,find_reference_numbers request_text desc <nxt> go_to none subtask instruction prev
+go to task number instruction number,wrong_request_structure
+go to subtask number task number,wrong_request_structure
+go to instruction number task number,wrong_request_structure
+go to instruction number subtask number,wrong_request_structure
+go to task number instruction number subtask number,wrong_request_structure
+go to subtask number task number instruction number,wrong_request_structure
+go to subtask number instruction number task number,wrong_request_structure
+go to instruction number task number subtask number,wrong_request_structure
+go to instruction number subtask number task number,wrong_request_structure
+move to task number instruction number,wrong_request_structure
+move to subtask number task number,wrong_request_structure
+move to instruction number task number,wrong_request_structure
+move to instruction number subtask number,wrong_request_structure
+move to task number instruction number subtask number,wrong_request_structure
+move to subtask number task number instruction number,wrong_request_structure
+move to subtask number instruction number task number,wrong_request_structure
+move to instruction number task number subtask number,wrong_request_structure
+move to instruction number subtask number task number,wrong_request_structure
+open task number instruction number,wrong_request_structure
+open subtask number task number,wrong_request_structure
+open instruction number task number,wrong_request_structure
+open instruction number subtask number,wrong_request_structure
+open task number instruction number subtask number,wrong_request_structure
+open subtask number task number instruction number,wrong_request_structure
+open subtask number instruction number task number,wrong_request_structure
+open instruction number task number subtask number,wrong_request_structure
+open instruction number subtask number task number,wrong_request_structure
+jump to task number instruction number,wrong_request_structure
+jump to subtask number task number,wrong_request_structure
+jump to instruction number task number,wrong_request_structure
+jump to instruction number subtask number,wrong_request_structure
+jump to task number instruction number subtask number,wrong_request_structure
+jump to subtask number task number instruction number,wrong_request_structure
+jump to subtask number instruction number task number,wrong_request_structure
+jump to instruction number task number subtask number,wrong_request_structure
+jump to instruction number subtask number task number,wrong_request_structure
+go to instruction number in task number,wrong_request_structure
+go to task number in subtask number,wrong_request_structure
+go to task number in instruction number,wrong_request_structure
+go to subtask number in instruction number,wrong_request_structure
+move to instruction number in task number,wrong_request_structure
+move to task number in subtask number,wrong_request_structure
+move to task number in instruction number,wrong_request_structure
+move to subtask number in instruction number,wrong_request_structure
+open instruction number in task number,wrong_request_structure
+open task number in subtask number,wrong_request_structure
+open task number in instruction number,wrong_request_structure
+open subtask number in instruction number,wrong_request_structure
+jump to instruction number in task number,wrong_request_structure
+jump to task number in subtask number,wrong_request_structure
+jump to task number in instruction number,wrong_request_structure
+jump to subtask number in instruction number,wrong_request_structure
+turn on annotations,show_annotations on
+turn on drawings,show_annotations on
+turn on annotation,show_annotations on
+turn off annotations,show_annotations off
+turn off drawings,show_annotations off
+turn off annotation,show_annotations off
+switch on annotations,show_annotations on
+switch on drawings,show_annotations on
+switch on annotation,show_annotations on
+switch off annotations,show_annotations off
+switch off drawings,show_annotations off
+switch off annotation,show_annotations off
+show annotations,show_annotations on
+show drawings,show_annotations on
+show annotation,show_annotations on
+display annotations,show_annotations on
+display drawings,show_annotations on
+display annotation,show_annotations on
+demonstrate annotations,show_annotations on
+demonstrate drawings,show_annotations on
+demonstrate annotation,show_annotations on
+include annotations,show_annotations on
+include drawings,show_annotations on
+include annotation,show_annotations on
+close annotations,show_annotations off
+close drawings,show_annotations off
+close annotation,show_annotations off
+hide annotations,show_annotations off
+hide drawings,show_annotations off
+hide annotation,show_annotations off
+remove annotations,show_annotations off
+remove drawings,show_annotations off
+remove annotation,show_annotations off
+,not_understood
+instruction,not_understood
+go to instruction,not_understood
+go to,not_understood
+show instruction,not_understood
+show,not_understood
+display instruction,not_understood
+display,not_understood
+move to instruction,not_understood
+move to,not_understood
+open instruction,not_understood
+open,not_understood
+show me instruction,not_understood
+show me,not_understood
+repeat instruction,not_understood
+repeat,not_understood
+rerun instruction,not_understood
+rerun,not_understood
+replay instruction,not_understood
+replay,not_understood
+number,not_understood
+of number,not_understood
+number manual,not_understood
+manual of number,not_understood
+number view,not_understood
+view of number,not_understood
+number document,not_understood
+document of number,not_understood
+show number,not_understood
+show of number,not_understood
+show number document,not_understood
+show document of number,not_understood
+display number,not_understood
+display of number,not_understood
+display number document,not_understood
+display document of number,not_understood
+open number,not_understood
+open of number,not_understood
+open number document,not_understood
+open document of number,not_understood
+illusrate number,not_understood
+illusrate of number,not_understood
+illusrate number document,not_understood
+illusrate document of number,not_understood
+demonstrate number,not_understood
+demonstrate of number,not_understood
+demonstrate number document,not_understood
+demonstrate document of number,not_understood
+show me number,not_understood
+show me of number,not_understood
+show me number document,not_understood
+show me document of number,not_understood
+video,not_understood
+tutorial,not_understood
+demo,not_understood
+media,not_understood
+reference video,not_understood
+side,not_understood
+show side,not_understood
+display side,not_understood
+demonstrate side,not_understood
+illustrate side,not_understood
+show me side,not_understood
+view,not_understood
+show view,not_understood
+display view,not_understood
+demonstrate view,not_understood
+illustrate view,not_understood
+show me view,not_understood
+look,not_understood
+show look,not_understood
+display look,not_understood
+demonstrate look,not_understood
+illustrate look,not_understood
+show me look,not_understood
+show of object number,not_understood
+show of component number,not_understood
+show of item number,not_understood
+show me of object number,not_understood
+show me of component number,not_understood
+show me of item number,not_understood
+display of object number,not_understood
+display of component number,not_understood
+display of item number,not_understood
+demonstrate of object number,not_understood
+demonstrate of component number,not_understood
+demonstrate of item number,not_understood
+illustrate of object number,not_understood
+illustrate of component number,not_understood
+illustrate of item number,not_understood
+of object number,not_understood
+of component number,not_understood
+of item number,not_understood
+show object number,not_understood
+show component number,not_understood
+show item number,not_understood
+show me object number,not_understood
+show me component number,not_understood
+show me item number,not_understood
+display object number,not_understood
+display component number,not_understood
+display item number,not_understood
+demonstrate object number,not_understood
+demonstrate component number,not_understood
+demonstrate item number,not_understood
+illustrate object number,not_understood
+illustrate component number,not_understood
+illustrate item number,not_understood
+number from number,not_understood
+object number from number,not_understood
+object number,not_understood
+component number from number,not_understood
+component number,not_understood
+item number from number,not_understood
+item number,not_understood
+objects number number number from number,not_understood
+objects number number number,not_understood
+components number number from number,not_understood
+components number number,not_understood
+items number number from number,not_understood
+items number number,not_understood
+number number from number,not_understood
+number number,not_understood
+objects number number from number,not_understood
+objects number number,not_understood
+components number number number from number,not_understood
+components number number number,not_understood
+items number number number from number,not_understood
+items number number number,not_understood
+number number number from number,not_understood
+number number number,not_understood
+objects number number number number from number,not_understood
+objects number number number number,not_understood
+items number number number number from number,not_understood
+items number number number number,not_understood
+number number number number from number,not_understood
+number number number number,not_understood
+components number number number number from number,not_understood
+components number number number number,not_understood
+show list,not_understood
+show for this task,not_understood
+show list for this task,not_understood
+show for this subtask,not_understood
+show list for this subtask,not_understood
+show for this instruction,not_understood
+show list for this instruction,not_understood
+show and,not_understood
+show and list,not_understood
+show and for this task,not_understood
+show and list for this task,not_understood
+show and for this subtask,not_understood
+show and list for this subtask,not_understood
+show and for this instruction,not_understood
+show and list for this instruction,not_understood
+show me list,not_understood
+show me for this task,not_understood
+show me list for this task,not_understood
+show me for this subtask,not_understood
+show me list for this subtask,not_understood
+show me for this instruction,not_understood
+show me list for this instruction,not_understood
+show me and,not_understood
+show me and list,not_understood
+show me and for this task,not_understood
+show me and list for this task,not_understood
+show me and for this subtask,not_understood
+show me and list for this subtask,not_understood
+show me and for this instruction,not_understood
+show me and list for this instruction,not_understood
+illustrate,not_understood
+illustrate list,not_understood
+illustrate for this task,not_understood
+illustrate list for this task,not_understood
+illustrate for this subtask,not_understood
+illustrate list for this subtask,not_understood
+illustrate for this instruction,not_understood
+illustrate list for this instruction,not_understood
+illustrate and,not_understood
+illustrate and list,not_understood
+illustrate and for this task,not_understood
+illustrate and list for this task,not_understood
+illustrate and for this subtask,not_understood
+illustrate and list for this subtask,not_understood
+illustrate and for this instruction,not_understood
+illustrate and list for this instruction,not_understood
+display list,not_understood
+display for this task,not_understood
+display list for this task,not_understood
+display for this subtask,not_understood
+display list for this subtask,not_understood
+display for this instruction,not_understood
+display list for this instruction,not_understood
+display and,not_understood
+display and list,not_understood
+display and for this task,not_understood
+display and list for this task,not_understood
+display and for this subtask,not_understood
+display and list for this subtask,not_understood
+display and for this instruction,not_understood
+display and list for this instruction,not_understood
+demonstrate,not_understood
+demonstrate list,not_understood
+demonstrate for this task,not_understood
+demonstrate list for this task,not_understood
+demonstrate for this subtask,not_understood
+demonstrate list for this subtask,not_understood
+demonstrate for this instruction,not_understood
+demonstrate list for this instruction,not_understood
+demonstrate and,not_understood
+demonstrate and list,not_understood
+demonstrate and for this task,not_understood
+demonstrate and list for this task,not_understood
+demonstrate and for this subtask,not_understood
+demonstrate and list for this subtask,not_understood
+demonstrate and for this instruction,not_understood
+demonstrate and list for this instruction,not_understood
+for this task,not_understood
+list for this task,not_understood
+for this subtask,not_understood
+list for this subtask,not_understood
+for this instruction,not_understood
+list for this instruction,not_understood
+and for this task,not_understood
+and list for this task,not_understood
+and for this subtask,not_understood
+and list for this subtask,not_understood
+and for this instruction,not_understood
+and list for this instruction,not_understood
+open for this task,not_understood
+open and,not_understood
+open and for this task,not_understood
+execute this,not_understood
+show execution of this,not_understood
+show me execution of this,not_understood
+demonstrate execution of this,not_understood
+perform execution of this,not_understood
+run execution of this,not_understood
+run this,not_understood
+start execution of this,not_understood
+execute number,not_understood
+execute number number,not_understood
+execute number number number,not_understood
+show execution of number,not_understood
+show execution of number number,not_understood
+show execution of number number number,not_understood
+show me execution of number,not_understood
+show me execution of number number,not_understood
+show me execution of number number number,not_understood
+demonstrate execution of number,not_understood
+demonstrate execution of number number,not_understood
+demonstrate execution of number number number,not_understood
+perform execution of number,not_understood
+perform execution of number number,not_understood
+perform execution of number number number,not_understood
+run execution of number,not_understood
+run execution of number number,not_understood
+run execution of number number number,not_understood
+run number,not_understood
+run number number,not_understood
+run number number number,not_understood
+start execution of number,not_understood
+start execution of number number,not_understood
+start execution of number number number,not_understood
+execute number in number,not_understood
+show execution of number in number,not_understood
+show me execution of number in number,not_understood
+demonstrate execution of number in number,not_understood
+perform execution of number in number,not_understood
+run execution of number in number,not_understood
+run number in number,not_understood
+start execution of number in number,not_understood
+go to number,not_understood
+go to number number,not_understood
+go to number number number,not_understood
+move to number,not_understood
+move to number number,not_understood
+move to number number number,not_understood
+open number number,not_understood
+open number number number,not_understood
+jump to number,not_understood
+jump to number number,not_understood
+jump to number number number,not_understood
+go to number in number,not_understood
+move to number in number,not_understood
+open number in number,not_understood
+jump to number in number,not_understood
+turn,not_understood
+switch,not_understood
+include,not_understood
+close,not_understood
+hide,not_understood
+remove,not_understood
